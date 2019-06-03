@@ -30,3 +30,5 @@
 *.exe
 *.out
 *.app
+/Latemod/.vs/Latemod/v16
+/.vs
