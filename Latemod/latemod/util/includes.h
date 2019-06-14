@@ -14,3 +14,4 @@
 #include <jvmti.h>
 
 #include "xorstr.h"
+#include "hook/hook.h"

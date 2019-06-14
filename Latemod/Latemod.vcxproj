@@ -130,10 +130,27 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="entry.cpp" />
+    <ClCompile Include="latemod\hooks\opengl.cpp" />
     <ClCompile Include="latemod\latemod.cpp" />
+    <ClCompile Include="latemod\util\hook\buffer.c" />
+    <ClCompile Include="latemod\util\hook\hde\hde32.c" />
+    <ClCompile Include="latemod\util\hook\hde\hde64.c" />
+    <ClCompile Include="latemod\util\hook\hook.c" />
+    <ClCompile Include="latemod\util\hook\trampoline.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="latemod\hooks\hooks.h" />
     <ClInclude Include="latemod\latemod.h" />
+    <ClInclude Include="latemod\mapping\Mapper.h" />
+    <ClInclude Include="latemod\util\hook\buffer.h" />
+    <ClInclude Include="latemod\util\hook\hde\hde32.h" />
+    <ClInclude Include="latemod\util\hook\hde\hde64.h" />
+    <ClInclude Include="latemod\util\hook\hde\pstdint.h" />
+    <ClInclude Include="latemod\util\hook\hde\table32.h" />
+    <ClInclude Include="latemod\util\hook\hde\table64.h" />
+    <ClInclude Include="latemod\util\hook\hook.h" />
+    <ClInclude Include="latemod\util\hook\MinHook.h" />
+    <ClInclude Include="latemod\util\hook\trampoline.h" />
     <ClInclude Include="latemod\util\includes.h" />
     <ClInclude Include="latemod\util\xorstr.h" />
   </ItemGroup>

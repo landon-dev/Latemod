@@ -32,3 +32,4 @@
 *.app
 /Latemod/.vs/Latemod/v16
 /.vs
+/Latemod/x64/Release
